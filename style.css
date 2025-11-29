@@ -1,0 +1,127 @@
+/* Modern Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f2f5f9;
+    color: #333;
+}
+
+/* Container Centering */
+.container,
+.row,
+.h2 {
+    text-align: center;
+}
+
+.login-container {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Modern Card Style */
+.login-form-1,
+.login-form-3 {
+    padding: 3rem 2rem;
+    border-radius: 1.2rem;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.login-form-1:hover,
+.login-form-3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+.login-form-1 h3 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.login-form-3 h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+/* Blue Glass Effect Box */
+.login-form-3 {
+    background: linear-gradient(135deg, #0062cc, #4a8fff);
+    color: #fff;
+}
+
+/* Form Padding */
+.login-container form {
+    padding: 1.5rem 0;
+}
+
+/* Modern Buttons */
+.btnSubmit {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 0.8rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.login-form-1 .btnSubmit {
+    background: #0062cc;
+    color: #fff;
+}
+
+.login-form-1 .btnSubmit:hover {
+    background: #004da3;
+    transform: translateY(-2px);
+}
+
+.login-form-3 .btnSubmit {
+    background: #fff;
+    color: #0062cc;
+}
+
+.login-form-3 .btnSubmit:hover {
+    background: #e9e9e9;
+    transform: translateY(-2px);
+}
+
+/* Links */
+.login-form-2 .ForgetPwd,
+.login-form-1 .ForgetPwd {
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: color 0.25s ease;
+}
+
+.login-form-1 .ForgetPwd {
+    color: #0062cc;
+}
+
+.login-form-2 .ForgetPwd:hover,
+.login-form-1 .ForgetPwd:hover {
+    color: #004a99;
+}
+
+/* Dashboard Placeholder */
+.dashboard {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
